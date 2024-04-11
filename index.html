@@ -8,26 +8,79 @@
 </head>
 <body>
     <section id="camp-activities-inquiry">
-    <h1>Camp Activities Inquiry</h1>
+       <header>
+        <h1><span style="color: black;">Camp </span> Activities Inquiry</h1>
+       </header>
     <form action="/submit-form" method="POST">
-        <label for="activity-select">Which camp activities are you most looking forward to?</label>
-        <select id="activity-select" name="activity">
-            <option value="">--Please choose an option--</option>
-            <option value="hiking">Hiking</option>
-            <option value="canoeing">Canoeing</option>
-            <option value="fishing">Fishing</option>
-            <option value="crafts">Crafts</option>
-            <option value="archery">Archery</option>
-        </select>
+        <div>
+            <label for="activity-select">Which camp activities are you most looking forward to?</label>
+            <select id="activity-select" name="activity">
+                <option value="">--Please choose an option--</option>
+                <option value="hiking">Hiking</option>
+                <option value="canoeing">Canoeing</option>
+                <option value="fishing">Fishing</option>
+                <option value="crafts">Crafts</option>
+                <option value="archery">Archery</option>
+            </select>
+        </div>
 
-        <label for="food-allergies">Food Allergies (if any)</label>
-        <textarea id="food-allergies" name="food_allergies" rows="4" cols="50"></textarea>
+        <div>
+            <label for="food-allergies">Food Allergies (if any)</label>
+            <textarea id="food-allergies" name="food_allergies" rows="4" cols="50"></textarea>
+    
+        </div>
 
-        <label for="additional-info">Additional things the counselor should know</label>
-        <textarea id="additional-info" name="additional_info" rows="4" cols="50"></textarea>
+        <div>
+            <label for="additional-info">Additional things the counselor should know</label>
+            <textarea id="additional-info" name="additional_info" rows="4" cols="50"></textarea>
+    
+        </div>
 
-        <button type="submit">Submit</button>
+        <div>
+            <button type="submit">Submit</button>
+
+        </div>
     </form>
 </section>
 </body>
+<style>
+    
+    body{
+        background-color: #85cef9;
+    }
+    *{
+        font-family: sans-serif;
+    }
+    header{
+        background-color: #fffe40;
+        color: white;
+        text-transform: uppercase;
+        width: fit-content;
+        margin: auto;
+        text-align: center;
+        -webkit-text-stroke: 1px black;
+        padding: 1px 30px;
+        margin-bottom: 10px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    form{
+        display: flex;
+        width: 80vw;
+        margin: auto;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 20px;
+        height: 80vh;
+        justify-content: space-between;
+
+    }
+    div{
+        width: 40%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+</style>
 </html>
