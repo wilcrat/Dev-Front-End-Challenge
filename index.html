@@ -36,7 +36,7 @@
     
         </div>
 
-        <div>
+        <div id="button">
             <button type="submit">Submit</button>
 
         </div>
@@ -82,12 +82,33 @@
         flex-direction: column;
     }
     
-    select{
+    label{
+        background-color: #2adf51;
+        color: white;
+        font-weight: 700;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    select,textarea{
         padding: 10px;
         margin-top: 10px;
     }
-    option{
-        padding: 10px;
+    button{
+        background-color: #3daef4;
+        padding: 10px 0 10px 0;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: #2adf51;
+        transition: .3s;
+    }
+    #button{
+        background-color: white;
+        padding: 15px;
+        border-radius: 5px;
     }
 </style>
 </html>
