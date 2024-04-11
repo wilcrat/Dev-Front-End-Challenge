@@ -36,3 +36,6 @@ Use CSS and JavaScript to make the below HTML markup beautiful, interactive, and
 
 **Modified Code Output**
 ![After](./img/post.png)
+
+**Inspiration**
+I used the colors from the Challenge Description [Cover Image](https://media.dev.to/cdn-cgi/image/width=1300/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ewlof0okaiu1b84v1trs.png)
